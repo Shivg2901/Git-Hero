@@ -1,32 +1,27 @@
-# Merge Conflict Meltdown Mission
+# Git-Hero - Aparoksha 24
 
-## Task 1
+Welcome to Git-Hero, an event conducted under Aparoksha 24, designed to showcase your Git skills through a series of exciting challenges. Whether you're a seasoned Git expert or just getting started, Git-Hero offers a platform for you to demonstrate your proficiency, learn new techniques, and compete with other participants.
 
-This task comprises the following steps.
+## How It Works
 
-### Step 1
+Git-Hero presents participants with a series of challenges that test their understanding and mastery of Git concepts and commands. Challenges may include tasks such as resolving merge conflicts, branching strategies, rebasing, working with remote repositories, and more. Each challenge is designed to simulate real-world scenarios commonly encountered in software development projects.
 
-- Checkout to the `Task-1` branch.
-- Create a text file named `<github-username>.txt`. For example, if your GitHub username is *sarthakvermaa*, the file name should be `sarthakvermaa.txt`.
-- Write your name on the first line of the file.
-- Commit these changes.
+Participants can access the challenges through the Git-Hero platform, where they will find detailed instructions and guidelines for completing each task. Upon completing a challenge, participants can submit their solutions for evaluation.
 
-### Step 2
+## Example Steps
 
-- Create a new branch named `feature` (and switch to it) from the `Task-2` branch.
-- Specify two things about yourself on **lines 2 and 3** of the file.
-- Commit these changes.
+```bash
+# Fork the repository (replace [username] with your GitHub username)
+git clone https://github.com/[username]/Aparoksha-24/Git-Hero.git
 
-### Step 3
+# Add the file to the staging area
+git add example.txt
 
-- Return to the `Task-1` branch.
-- Write your 2-3 favourite food you like to eat, i.e., on lines 2 and 3.
-- Commit these changes.
+# Add the file to the staging area
+git add example.txt
 
-### Final step
+# Commit your changes
+git commit -m "Add changes on master branch"
 
-- Merge the changes from the `feature` branch into the `Task-1` branch.
-
-*Upon completing this task, ensure you have precisely 4 commits, and the data entered in both steps 2 & 3 persists in the file. Push these changes and create a PR.*
-
-<hr>
+# Push changes to your forked repository
+git push origin master
